@@ -1,0 +1,21 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Node / Next.js
+frontend/node_modules/
+frontend/.next/
+
+# Environment secrets
+.env
+frontend/.env.local
+
+# Large model weights
+backend/models/*.safetensors
+
+# OS
+.DS_Store
+
+# Contains real personal data (Aadhaar numbers, addresses) - not for public repo
+"srinivasulu prabhakar permanant.docx"
